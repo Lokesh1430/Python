@@ -1,0 +1,14 @@
+#Write a python program to print subtraction of two numbers?
+
+print('Write a python program to print subtraction of two numbers')
+a=int(input('\nEnter First Number:'))
+b=int(input('Enter Second Number:'))
+c=a-b
+print('Subtraction Of Two Numbers:',c)
+
+OUTPUT:
+      Write a python program to print subtraction of two numbers
+
+      Enter First Number:5
+      Enter Second Number:3
+      Subtraction Of Two Numbers: 2
