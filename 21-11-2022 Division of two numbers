@@ -1,0 +1,15 @@
+#Write a program to print Division of two numbers?
+
+print('Write a program to print Division of two numbers')
+a=int(input('\nEnter First Number:'))
+b=int(input('Enter Second Number:'))
+c=a/b
+print('Division Of Two Numbers:',c)
+
+OUTPUT:
+      Write a program to print Division of two numbers
+
+      Enter First Number:20
+      Enter Second Number:5
+      Division Of Two Numbers: 4.0
+      
