@@ -1,0 +1,14 @@
+#Write a program to multiplication of two numbers?
+
+print('Write a program to multiplication of two numbers')
+a=int(input('\nEnter First Number:'))
+b=int(input('Enter Second Number:'))
+c=a*b
+print('Multiplication Of Two Numbers:',c)
+
+OUTPUT:
+      Write a program to multiplication of two numbers
+
+      Enter First Number:4
+      Enter Second Number:6
+      Multiplication Of Two Numbers: 24
