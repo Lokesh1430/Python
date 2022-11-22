@@ -1,0 +1,17 @@
+#Write a program to Calculate EMI
+
+print('\nWrite a program to Calculate EMI\n')
+P=int(input('Enter principle amount:'))
+T=int(input('Enter time period:'))
+R=float(input('Enter interest amount:'))
+si=(P*T*R)/100
+EMI=(si+P)/T*12
+print('The EMI amount is:',EMI)
+
+OUTPUT:
+    Write a program to Calculate EMI
+    
+    Enter principle amount:1000
+    Enter time period:4
+    Enter interest amount:4
+    The EMI amount is: 3480.0
