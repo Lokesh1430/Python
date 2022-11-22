@@ -1,0 +1,26 @@
+#Write a program to print swapping of two numbers without using third variable.
+
+print('Write a program to print swapping of two numbers without using third variable.')
+A=int(input('\nEnter A value:'))
+B=int(input('Enter B value:'))
+print('Before swapping')
+print(A,B)
+A=A+B
+B=A-B
+A=A-B
+print('After swapping\n')
+print('Value of A=',A)
+print('Value of B=',B)
+
+OUTPUT:
+     Write a program to print swapping of two numbers without using third variable.
+
+     Enter A value:7
+     Enter B value:4
+     Before swapping
+     7 4
+     After swapping
+
+     Value of A= 4
+     Value of B= 7
+
