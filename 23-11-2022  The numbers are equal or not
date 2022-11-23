@@ -1,0 +1,22 @@
+#Write a program to print the numbers are equal or not?
+
+print('Write a program to print the numbers are equal or not\n')
+a=int(input('Enter A value:'))
+b=int(input('ENter B value:'))
+print('Both values are equal')if a==b else print('Both values are not equal')
+
+OUTPUT:
+      Write a program to print the numbers are equal or not
+
+      Enter A value:6
+      ENter B value:4
+      Both values are not equal
+
+OUTPUT:
+     Write a program to print the numbers are equal or not
+
+      Enter A value:8
+      ENter B value:8
+      Both values are equal
+
+
