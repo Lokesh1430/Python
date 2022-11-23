@@ -1,0 +1,24 @@
+#Write a program to print bigest number?
+
+print('\nWrite a program to print bigest number\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+print('A is Big',a)if a>b else print('B is Big',b)
+
+
+OUTPUT:
+      Write a program to print bigest number
+
+      Enter A value:44
+      Enter B value:22
+      A is Big 44
+      
+OUTPUT:
+      Write a program to print bigest number
+
+      Enter A value:50
+      Enter B value:90
+      B is Big 90
+      
+      
+      
