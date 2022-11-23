@@ -1,0 +1,18 @@
+#Write a program to print the number is even or odd?
+
+print('Write a program to print the number is even or odd\n')
+a=int(input('Enter the number:'))
+print('The number is even')if a%2==0 else print('The number is odd')
+
+OUTPUT: 
+       Write a program to print the number is even or odd
+
+       Enter the number:4
+       The number is even
+
+OUTPUT: 
+       Write a program to print the number is even or odd
+
+      Enter the number:9
+      The number is odd
+
