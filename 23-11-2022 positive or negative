@@ -1,0 +1,18 @@
+#Write a program to print given number is positive or negative?
+
+print('Write a program to print given number is positive or negative\n')
+a=int(input('Enter A value:'))
+print('A is positive') if a>0 else print('A is negative')
+
+OUTPUT:
+      Write a program to print given number is positive or negative
+
+      Enter A value:5
+      A is positive
+
+OUTPUT:
+      Write a program to print given number is positive or negative
+
+    Enter A value:-7
+    A is negative
+
