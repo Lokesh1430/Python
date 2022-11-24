@@ -1,0 +1,58 @@
+#Write a program to print Arithmetic Operations?
+
+print('Write a program to print Arithmetic Operations\n')
+
+a=int(input('Enter A value:'))
+
+b=int(input('Enter B value:'))
+
+c=a+b
+
+d=a-b
+
+A=a*b
+
+B=a/b
+
+C=a%b
+
+D=a**b
+
+e=a//b
+
+print('\nThe Addition of two numbers is:',c)
+
+print('The Subtraction of two numbers is:',d)
+
+print('The Multiplication of two numbers is:',A)
+
+print('The Division of two numbers is:',B)
+
+print('The Moduls of two numbers is:',C)
+
+print('The Exponentiation of two numbers is:',D)
+
+print('The Floor of two numbers is:',e)
+
+OUTPUT:
+
+Write a program to print Arithmetic Operations
+
+Enter A value:6
+
+Enter B value:3
+
+The Addition of two numbers is: 9
+
+The Subtraction of two numbers is: 3
+
+The Multiplication of two numbers is: 18
+
+The Division of two numbers is: 2.0
+
+The Moduls of two numbers is: 0
+
+The Exponentiation of two numbers is: 216
+
+The Floor of two numbers is: 2
+
