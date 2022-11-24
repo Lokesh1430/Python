@@ -1,0 +1,59 @@
+#Write a program to print Relational operations?
+
+print('Write a program to print Relational operations')
+
+a=int(input('\nEnter First Value:'))
+
+b=int(input('Enter Second Value:'))
+
+print(a>b)
+
+print(a<b)
+
+print(a==b)
+
+print(a!=b)
+
+print(a>=b)
+
+print(a<=b)
+
+OUTPUT:
+
+Write a program to print Relational operations
+
+Enter First Value:8
+
+Enter Second Value:3
+
+True
+
+False
+
+False
+
+True
+
+True
+
+False
+
+OUTPUT:
+
+Write a program to print Relational operations
+
+Enter First Value:4
+
+Enter Second Value:8
+
+False
+
+True
+
+False
+
+True
+
+False
+
+True
