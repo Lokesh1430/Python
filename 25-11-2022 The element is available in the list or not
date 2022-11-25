@@ -1,0 +1,23 @@
+#Findout if the given element is available in the list or not?
+
+print('Findout if the given element is available in the list or not')
+list=[22,55,11,88,55,76,34,32,5,7,2,56,30]
+a=int(input('\nEnter any number:'))
+if a in list:
+    print('Yes')
+else:
+    print('No')
+
+OUTPUT:
+       Findout if the given element is available in the list or not
+
+       Enter any number:28
+       No
+
+OUTPUT:
+      Findout if the given element is available in the list or not
+
+       Enter any number:11
+       Yes
+       
+       
