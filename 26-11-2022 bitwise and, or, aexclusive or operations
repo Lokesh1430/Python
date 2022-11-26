@@ -1,0 +1,22 @@
+#write a program to perform bitwise and, or, aexclusive or operations for A and B values?
+
+print('write a program to perform bitwise and, or, aexclusive or operations for A and B values\n')
+A=int(input('Enter the first value:'))
+B=int(input('Enter the second value:'))
+A&B
+A|B
+A^B
+print('A&B=',A&B)
+print('A|B=',A|B)
+print('A^B=',A^B)
+
+OUTPUT:
+      write a program to perform bitwise and, or, aexclusive or operations for A and B values
+
+      Enter the first value:10
+      Enter the second value:12
+      A&B= 8
+      A|B= 14
+      A^B= 6
+
+
