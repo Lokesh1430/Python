@@ -1,0 +1,33 @@
+#Write a program to perform 1 to 10 left shift operations on the given number?
+
+print('Write a program to perform 1 to 10 left shift operations on the given number\n')
+a=int(input('Enter the number:'))
+print('a<<1:',a<<1)
+print('a<<2:',a<<2)
+print('a<<3:',a<<3)
+print('a<<4:',a<<4)
+print('a<<5:',a<<5)
+print('a<<6:',a<<6)
+print('a<<7:',a<<7)
+print('a<<8:',a<<8)
+print('a<<9:',a<<9)
+print('a<<10:',a<<10)
+
+
+OUTPUT:
+      Write a program to perform 1 to 10 left shift operations on the given number
+
+       Enter the number:5
+       a<<1: 10
+       a<<2: 20
+       a<<3: 40
+       a<<4: 80
+       a<<5: 160
+       a<<6: 320
+       a<<7: 640
+       a<<8: 1280
+       a<<9: 2560
+       a<<10: 5120
+       
+       
+       
