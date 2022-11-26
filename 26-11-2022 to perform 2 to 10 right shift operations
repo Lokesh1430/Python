@@ -1,0 +1,29 @@
+#Write a program to perform 2 to 10 right shift operations on the given number?
+
+print('Write a program to perform 2 to 10 right shift operations on the given number\n')
+a=int(input('Enter the number:'))
+print('a>>2:',a>>2)
+print('a>>3:',a>>3)
+print('a>>4:',a>>4)
+print('a>>5:',a>>5)
+print('a>>6:',a>>6)
+print('a>>7:',a>>7)
+print('a>>8:',a>>8)
+print('a>>9:',a>>9)
+print('a>>10:',a>>10)
+
+OUTPUT:
+        Write a program to perform 2 to 10 right shift operations on the given number
+
+        Enter the number:10
+        a>>2: 2
+        a>>3: 1
+        a>>4: 0
+        a>>5: 0
+        a>>6: 0
+        a>>7: 0
+        a>>8: 0
+        a>>9: 0
+        a>>10: 0
+
+
