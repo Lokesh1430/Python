@@ -1,0 +1,22 @@
+#Write a program to check the given number is valid or not?
+
+print('Write a program to check the given number is valid or not\n')
+pin=143087
+a=int(input('Enter the atm pin:'))
+print('continue to the transaction....')if pin==a else print('Incorrect pin..\nPlese try again...')
+
+OUTPUT:
+        Write a program to check the given number is valid or not
+
+        Enter the atm pin:143087
+        continue to the transaction....
+
+OUTPUT:
+       Write a program to check the given number is valid or not
+
+       Enter the atm pin:436084
+       Incorrect pin..
+       Plese try again...
+        
+        
+        
