@@ -1,0 +1,24 @@
+#Write a program to print given number is below 100 or not? 
+
+print('Write a program to print given number is below 100 or not\n')
+a=int(input('Enter the value :'))
+if a>100:
+    print('The number is greater than 100')
+else:
+    print('The number is less than 100')
+
+OUTPUT:
+       Write a program to print given number is below 100 or not
+
+       Enter the value :86
+       The number is less than 100
+
+OUTPUT:
+        Write a program to print given number is below 100 or not
+
+        Enter the value :250
+        The number is greater than 100
+        
+        
+        
+        
