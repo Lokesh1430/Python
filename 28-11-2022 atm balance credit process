@@ -1,0 +1,24 @@
+#Write a program to do atm balance credit process?
+
+print('Write a program to do atm balance credit process\n')
+Bal=5000
+amount=int(input('Enter the amount :'))
+if amount<Bal:
+    d=Bal-amount
+    print('Transaction processed successfully....')
+    print('Debited amount:',amount)
+    print('Remaining balance:',d)
+else:
+    print('Insufficient balance in your account')
+    print('Please try again')
+
+OUTPUT:
+       Write a program to do atm balance credit process
+
+       Enter the amount :4000
+       Transaction processed successfully....
+       Debited amount: 4000
+       Remaining balance: 1000
+       
+       
+       
