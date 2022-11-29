@@ -1,0 +1,48 @@
+#write a program to print biggest of four numbers?
+
+print('write a program to print biggest of four numbers\n')
+x=int(input('Enter the first value:'))
+y=int(input('Enter the second value:'))
+z=int(input('Enter the third value:'))
+p=int(input('Enter the fourth value:'))
+if x>=y and x>=z and x>=p:
+    print('The first number is big:',x)
+elif y>=z and y>=p and y>=x:
+    print('THe second number is big:',y)
+elif z>=p and  z>=x and z>=y:
+    print('The third number is big:',z)
+else:
+    print('The fourth number is big:',p)
+
+
+OUTPUT:
+
+write a program to print biggest of four numbers
+
+Enter the first value:10
+Enter the second value:20
+Enter the third value:30
+Enter the fourth value:40
+The fourth number is big: 40
+
+OUTPUT:
+
+write a program to print biggest of four numbers
+
+Enter the first value:20
+Enter the second value:30
+Enter the third value:20
+Enter the fourth value:30
+THe second number is big: 30
+
+
+OUTPUT:
+
+write a program to print biggest of four numbers
+
+Enter the first value:10
+Enter the second value:10
+Enter the third value:10
+Enter the fourth value:9
+The first number is big: 10
+
