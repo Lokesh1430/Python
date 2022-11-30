@@ -1,0 +1,47 @@
+#write a program to prepare bill for super market?
+
+print('write a program to preapre bill for super market\n')
+blackdates=320
+sunfloweroil=150
+soap=60
+detergent=150
+sugar=50
+phno=int(input('Enter the phone number of the customer:'))
+name=input('Enter the name of the customer:')
+bd=int(input('Enter the number of blackdates:'))
+so=int(input('Enter the number of sunflower oil:'))
+sop=int(input('Enter the number of soaps:'))
+dt=int(input('Enter the number of detergents:'))
+sg=int(input('Enter the number of sugar packets:'))
+bill=(blackdates*bd)+(sunfloweroil*so)+(soap*sop)+(detergent*dt)+(sugar*sg)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+tax=tax+bill
+print('customer phone number',phno)
+print('customer name',name)
+print('tax=',tax)
+print('bill=',bill)
+
+OUTPUT:
+
+write a program to preapre bill for super market
+
+Enter the phone number of the customer:7382514356
+Enter the name of the customer:SMART
+Enter the number of blackdates:1
+Enter the number of sunflower oil:2
+Enter the number of soaps:5
+Enter the number of detergents:6
+Enter the number of sugar packets:1
+customer phone number 7382514356
+customer name SMART
+tax= 2057.0
+bill= 1870
