@@ -33,11 +33,11 @@ elif coupon=='DIWALI' and bill>=3000:
     dis=bill*6/100
 elif coupon=='DIWALI' and bill>=1000:
     dis=bill*4/100
-elif coupon=='CRISMAS' and bill>=3000:
+elif coupon=='CHRITMAS' and bill>=3000:
     dis=bill*20/100
-elif coupon=='CRISMAS' and bill>=2000:
+elif coupon=='CHRITMAS' and bill>=2000:
     dis=bill*10/100
-elif coupon=='CRISMAS' and bill>=1000:
+elif coupon=='CHRITMAS' and bill>=1000:
     dis=bill*5/100
 else:
     dis=0
@@ -81,7 +81,7 @@ Enter the number of sunflower oil:1
 Enter the number of soaps:0
 Enter the number of detergents:2
 Enter the number of sugar packets:2
-enter coupon code :CRISMAS
+enter coupon code :CHRITMAS
 customer phone number 2584337114
 customer name SL
 customer address ELURU
