@@ -1,0 +1,92 @@
+#write a program to preapre bill and discount based of coupon code?
+print('write a program to preapre bill for super market\n')
+blackdates=320
+sunfloweroil=150
+soap=60
+detergent=150
+sugar=50
+phno=int(input('Enter the phone number of the customer:'))
+name=input('Enter the name of the customer:')
+add=input('enter the address of the customer:')
+bd=int(input('Enter the number of blackdates:'))
+so=int(input('Enter the number of sunflower oil:'))
+sop=int(input('Enter the number of soaps:'))
+dt=int(input('Enter the number of detergents:'))
+sg=int(input('Enter the number of sugar packets:'))
+bill=(blackdates*bd)+(sunfloweroil*so)+(soap*sop)+(detergent*dt)+(sugar*sg)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+tax=tax+bill
+
+coupon=input('enter coupon code :')
+if coupon=='DIWALI' and bill>=5000:
+    dis=bill*10/100
+elif coupon=='DIWALI' and bill>=3000:
+    dis=bill*6/100
+elif coupon=='DIWALI' and bill>=1000:
+    dis=bill*4/100
+elif coupon=='CRISMAS' and bill>=3000:
+    dis=bill*20/100
+elif coupon=='CRISMAS' and bill>=2000:
+    dis=bill*10/100
+elif coupon=='CRISMAS' and bill>=1000:
+    dis=bill*5/100
+else:
+    dis=0
+print('customer phone number',phno)
+print('customer name',name)
+print('customer address',add)
+print('tax=',tax)
+print('bill=',bill)
+print('discount',dis)
+
+
+OUTPUT:
+
+write a program to preapre bill for super market
+
+Enter the phone number of the customer:7285671457
+Enter the name of the customer:SMART
+enter the address of the customer:ELURU
+Enter the number of blackdates:2
+Enter the number of sunflower oil:1
+Enter the number of soaps:3
+Enter the number of detergents:1
+Enter the number of sugar packets:1
+enter coupon code :DIWALI
+customer phone number 7285671457
+customer name SMART
+customer address ELURU
+tax= 1287.0
+bill= 1170
+discount 46.8
+
+OUTPUT:
+
+write a program to preapre bill for super market
+
+Enter the phone number of the customer:2584337114
+Enter the name of the customer:SL
+enter the address of the customer:ELURU
+Enter the number of blackdates:2
+Enter the number of sunflower oil:1
+Enter the number of soaps:0
+Enter the number of detergents:2
+Enter the number of sugar packets:2
+enter coupon code :CRISMAS
+customer phone number 2584337114
+customer name SL
+customer address ELURU
+tax= 1309.0
+bill= 1190
+discount 59.5
+
+
