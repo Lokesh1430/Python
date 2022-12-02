@@ -1,0 +1,67 @@
+#Biggest of two numbers by using functions?
+
+print('Biggest of two numbers by using functions\n')
+def biggestvalue(a,b):
+    if a>b:
+        print('A is big')
+    else:
+        print('B is big')
+print('******Model 1******\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B VALUE:'))
+biggestvalue(a,b)
+
+
+
+def biggestvalue(a,b):
+    if a>b:
+        return'A is big'
+    else:
+        return'B is big'
+print('\n******Model 2******\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+print(biggestvalue(a,b))
+
+
+def bigestvalue(a, b):
+    if a>b:
+        return True
+    else:
+        return False
+print('\n******Model 3******\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+if(bigestvalue(a, b)):
+    print('A is big')
+else:
+    print('B is big')
+
+
+
+
+
+OUTPUT:
+
+Biggest of two numbers by using functions
+
+******Model 1******
+
+Enter A value:50
+Enter B VALUE:20
+A is big
+
+******Model 2******
+
+Enter A value:80
+Enter B value:90
+B is big
+
+******Model 3******
+
+Enter A value:40
+Enter B value:40
+B is big
+
+
+
