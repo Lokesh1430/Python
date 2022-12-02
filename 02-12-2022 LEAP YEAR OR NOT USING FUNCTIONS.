@@ -1,0 +1,52 @@
+#To check leap year or not by using functions?
+
+print('To check leap year or not by using functions\n')
+def leapyear():
+    if year%4==0 and year%100!=0 or year%400==0:
+     print('Yes')
+    else:
+     print('No')
+print('*****Model 1******\n')
+year=int(input('Enter the year:'))
+leapyear()
+
+def leapyear():
+    if year%4==0 and year%100!=0 or year%400==0:
+        return'Yes'
+    else:
+        return'No'
+print('\n*****Model 2******\n')
+year=int(input('Enter the year:'))
+print(leapyear())
+
+def leapyear():
+    if year%4==0 and year%100!=0 or year%400==0:
+        return True
+    else:
+        return False
+print('\n*****Model 3******\n')
+year=int(input('Enter the year:'))
+if (leapyear()):
+    print('Yes')
+else:
+    print('No')
+
+
+output:
+
+To check leap year or not by using functions
+
+*****Model 1******
+
+Enter the year:2000
+Yes
+
+*****Model 2******
+
+Enter the year:2007
+No
+
+*****Model 3******
+
+Enter the year:2004
+Yes
