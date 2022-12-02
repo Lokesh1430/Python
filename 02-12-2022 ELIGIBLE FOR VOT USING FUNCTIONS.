@@ -1,0 +1,55 @@
+#Eligible for vot by using functions?
+
+print('Eligible for vot by using functions\n')
+def vote():
+    if v>=18:
+     print('Yes')
+    else:
+     print('No')
+print('*****Model 1******\n')
+v=int(input('Enter the age:'))
+vote()
+
+
+def vote():
+    if v>=18:
+        return'Yes'
+    else:
+        return'No'
+print('\n******Model 3******\n')    
+v=int(input('Enter the age:'))
+print(vote())
+
+
+def vote():
+    if v>=18:
+        return True
+    else:
+        return False
+print('\n******Model 3******\n')
+v=int(input('Enter the age:'))
+if(vote()):
+    print('Yes')
+else:
+    print('No')
+
+
+
+OUTPUT:
+
+Eligible for vot by using functions
+
+*****Model 1******
+
+Enter the age:18
+Yes
+
+******Model 3******
+
+Enter the age:15
+No
+
+******Model 3******
+
+Enter the age:20
+Yes
