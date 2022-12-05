@@ -1,0 +1,18 @@
+#Write a program to print sum of all digits of a given number?
+
+print('Write a program to print sum of all digits of a given number\n')
+n=int(input())
+sum=0
+while(n>0):
+    k=n%10
+    sum=sum+k
+    n=int(n/10)
+print(sum)
+
+OUTPUT:
+
+Write a program to print sum of all digits of a given number
+
+345
+12
+
