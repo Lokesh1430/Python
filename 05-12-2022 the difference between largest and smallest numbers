@@ -1,0 +1,31 @@
+#Write a program to print the difference between largest and smallest numbers among n no.of numbers?
+
+print('Write a program to print the difference between largest and smallest numbers among n no.of numbers\n')
+n=int(input("Enter how numbers your want:"))
+num=int(input("Enter the number ")) 
+largest=num
+smallest=num
+i=1
+while(i<n):
+    num=int(input("Enter any number "))
+    if(num<smallest):
+        smallest=num 
+    i=i+1
+    if(num>largest):
+         largest=num
+dif=largest-smallest
+print(dif)
+
+OUTPUT:
+
+Write a program to print the difference between largest and smallest numbers among n no.of numbers
+
+Enter how numbers your want:5
+Enter the number 12
+Enter any number 3
+Enter any number 6
+Enter any number 10
+Enter any number 34
+31
+
+
