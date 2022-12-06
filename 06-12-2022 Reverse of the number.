@@ -1,0 +1,19 @@
+#Write a program to print reverse of the given number?
+
+print('Write a program to print reverse of the given number\n')
+n=int(input('Enter the number:'))
+rev=0
+while(n>0):
+    rev=rev*10+n%10
+    n=n//10
+print('The reverse of the number is:',rev)
+
+
+OUTPUT:
+
+Write a program to print reverse of the given number
+
+Enter the number:12345
+The reverse of the number is: 54321
+
+
