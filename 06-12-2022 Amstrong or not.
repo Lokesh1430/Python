@@ -1,0 +1,32 @@
+#Write a program to print give number is Armstrong or not?
+
+print('Write a program to print give number is Armstrong or not\n')
+n=int(input('Enter the number:'))
+am=n
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+rem*rem*rem
+    n=n//10
+if am==sum:
+    print('Amstrong')
+else:
+    print('Not a amstrong')
+
+
+OUTPUT:
+
+Write a program to print give number is Armstrong or not
+
+Enter the number:153
+Amstrong
+
+
+OUTPUT:
+
+Write a program to print give number is Armstrong or not
+
+Enter the number:123
+Not a amstrong
+
+
