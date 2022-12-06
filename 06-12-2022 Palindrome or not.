@@ -1,0 +1,30 @@
+#Write a program to print given number is palindrome or not?
+
+print('Write a program to print given number is palindrome or not\n')
+n=int(input('Enter the number:'))
+pd=n
+rev=0
+while(n>0):
+    rev=rev*10+n%10
+    n=n//10
+if (rev==pd):
+    print('Palindrome')
+else:
+    print('Not palindrome')
+
+OUTPUT:
+
+Write a program to print given number is palindrome or not
+
+Enter the number:123
+Not palindrome
+
+
+OUTPUT:
+
+Write a program to print given number is palindrome or not
+
+Enter the number:121
+Palindrome
+
+
