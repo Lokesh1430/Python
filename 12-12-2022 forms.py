@@ -18,3 +18,5 @@ Entry(sf).grid(row=6,column=1)
 Button(sf,text='Submit').grid(row=7)
 Button(sf,text='Cancle').grid(row=7,column=1)
 mainloop()
+
+
