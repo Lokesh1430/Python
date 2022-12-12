@@ -6,3 +6,15 @@ print(l)
 print(l[0])
 print(l[2])
 print(l[4])
+
+
+OUTPUT:
+  
+Enter the total number:5
+Enter the number:50 40 80 70 20
+[50, 40, 80, 70, 20]
+50
+80
+20
+
+
