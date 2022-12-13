@@ -1,0 +1,22 @@
+# Write a program to insert n number of districts to particular state.
+
+n=int(input())
+list=[]
+for i in range(n):
+    dist=input('Enter the districts in ap:')
+    list.append(dist)
+list.sort()
+print(list)
+
+OUTPUT:
+
+4
+Enter the districts in ap:Kakinada
+Enter the districts in ap:Vishakapatnam
+Enter the districts in ap:Srikakulam
+Enter the districts in ap:Amalapuram
+['Amalapuram', 'Kakinada', 'Srikakulam', 'Vishakapatnam']
+
+
+
+
