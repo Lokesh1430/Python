@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    n = int(input())
+    l=list(map(int,input().split()))
+    s=set(l)
+    t=list(s)
+    t.sort(reverse=True)
+    print(t[1])
+    
+    
+    
+    
