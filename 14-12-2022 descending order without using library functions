@@ -1,0 +1,20 @@
+# Write a program to read n elements to the list and arrange the elements in descending order without using library functions?
+
+n=int(input())
+a=list(map(int,input().split()))
+for i in range(0,n):
+    for j in range(i+1,n):
+        if a[i]<a[j]:
+            b=a[i]
+            a[i]=a[j]
+            a[j]=b
+for i in range(n):
+    print(a[i],end=' ')
+
+OUTPUT:
+
+5
+2 5 78 9 46
+78 46 9 5 2 
+
+
