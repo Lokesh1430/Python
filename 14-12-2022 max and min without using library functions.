@@ -1,0 +1,22 @@
+# Write a program to read n number of values in the list and print min amd max values in the list without using library functions?
+
+l=[]
+n=int(input('Enter the total numbers:'))
+l=list(map(int,input().split()))
+max=l[0]
+min=l[0]
+for i in range(1,n):
+    if l[i]>max:
+        max=l[i]
+    elif l[i]<min:
+        min=l[i]
+print(min)
+print(max)
+
+
+OUTPUT:
+Enter the total numbers:5
+1 44 3 0 2
+0
+44
+
