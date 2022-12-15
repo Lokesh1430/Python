@@ -1,0 +1,33 @@
+# Write a program to check subtraction of any two elements are equal to target value. If it is possible to print 'Yes' otherwise'No'?
+
+n=int(input())
+check=0
+l=list(map(int,input().split()))
+k=int(input('Enter the target value:'))
+for i in range(n):
+    for j in range(i+1,n):
+        if l[i]-l[j]==k:
+            check=1
+            break
+if check==1:
+    print('Yes')
+else:
+    print('No')
+
+
+OUTPUT1:
+
+5
+12 15 17 90 92
+Enter the target value:75
+No
+
+OUTPUT2:
+
+5
+90 92 17 15 12
+Enter the target value:75
+Yes
+
+
+
