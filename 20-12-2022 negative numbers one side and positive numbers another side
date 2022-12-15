@@ -1,0 +1,23 @@
+# Write a program to move negative numbers one side and positive numbers another side, Note '0' is also positive.
+
+n=int(input())
+l=list(map(int,input().split()))
+ll=[]
+l2=[]
+for i in range(n):
+    if l[i]>0:
+        ll.append(l[i])
+    else:
+        l2.append(l[i])
+t=ll+l2
+for i in t:
+    print(i,end=' ')
+
+
+OUTPUT:
+5
+2 -1 -3 8 10
+2 8 10 -1 -3
+
+
+
