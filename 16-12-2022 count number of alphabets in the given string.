@@ -1,0 +1,18 @@
+# Write a program to count number of alphabets in the given string?
+
+str=input('Enter the string:')
+count=0
+l=len(str)
+for i in range(0,l):
+    if str[i].isalpha()==1:
+        count=count+1
+print('Number of alphabets of string:',count)
+
+
+OUTPUT:
+
+Enter the string:Lokesh
+Number of alphabets of string: 6
+
+
+
