@@ -1,0 +1,29 @@
+# Read a string and perform the following operations
+	#(a) display no.of characters of string
+	#(b) convert from lower to upper
+	#(c) convert from upper to lower
+	#(d) convert lower to upper and upper to lower
+
+
+str=input('Enter the string:')
+count=0
+l=len(str)
+for i in range(0,l):
+    if str[i].isalpha()==1:
+        count=count+1
+print('Number of characters of string:',count)
+print('Convert from lower to upper:',str.upper())
+print('Convert from upper to lower',str.lower())
+print('Convert lower to upper and upper to lower',str.swapcase())
+
+
+OUTPUT:
+
+Enter the string:LoKeSh
+Number of characters of string: 6
+Convert from lower to upper: LOKESH
+Convert from upper to lower lokesh
+Convert lower to upper and upper to lower lOkEsH
+
+
+
