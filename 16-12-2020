@@ -1,0 +1,18 @@
+# Write a program to count number of digits in the given string?
+
+str=input('Enter the string:')
+count=0
+l=len(str)
+for i in range(0,l):
+    if str[i].isdigit()==1:
+        count=count+1
+print('Count number of digits of string:',count)
+
+
+OUTPUT:
+
+Enter the string:Lokesh143
+Count number of digits of string: 3
+
+
+
