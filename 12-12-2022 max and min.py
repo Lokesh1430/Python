@@ -6,8 +6,8 @@ for i in range(n):
     val=int(input('Enter the number:'))
     l.append(val)
 print(l)
-print(max(l))
-print(min(l))
+print('max=',max(l))
+print('min=',min(l))
 
 OUTPUT:
 
@@ -18,5 +18,7 @@ Enter the number:20
 Enter the number:80
 Enter the number:6
 [10, 5, 20, 80, 6]
-80
-5
+max= 80
+min= 5
+
+
