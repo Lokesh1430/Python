@@ -1,0 +1,27 @@
+x=int(input('Enter the starting value:'))
+y=int(input('Enter the ending value:'))
+count=0
+for i in range(x+1,y):
+    fact=0
+    for j in range(1,i):
+        if i%j==0:
+            fact=fact+1
+    if fact==1:
+        count=count+1
+print(count)
+
+
+OUTPUT:
+
+Enter the starting value:1
+Enter the ending value:10
+4
+
+OUTPUT:
+
+Enter the starting value:1
+Enter the ending value:50
+15
+
+
+
