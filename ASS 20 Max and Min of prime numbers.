@@ -1,0 +1,33 @@
+n=int(input())
+l=list(map(int,input().split()))
+l1=[]
+for i in range(0,n):
+    fact=0
+    for j in range(1,l[i]):
+        if l[i]%j==0:
+            fact=fact+1
+    if fact==1:
+        l1.append(l[i])
+print(l1)
+print('Max=',max(l1))
+print('Min=',min(l1))
+
+
+OUTPUT:
+
+5
+23 10 79 15 9
+[23, 79]
+Max= 79
+Min= 23
+
+OUTPUT:
+
+5
+88 15 48 10 3
+[3]
+Max= 3
+Min= 3
+
+
+
