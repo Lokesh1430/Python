@@ -1,0 +1,24 @@
+n=int(input())
+i=2
+factor=2
+while(i<n):
+    if n%i==0:
+        factor=factor+1
+        break
+    i=i+1
+if factor==2:
+    print('Prime number')
+else:
+    print('Not prime number')
+
+
+OUTPUT:
+
+3
+Prime number
+
+output:
+
+20
+Not prime number
+
