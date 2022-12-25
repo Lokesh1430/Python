@@ -1,0 +1,29 @@
+n=int(input())
+l=list(map(int,input().split()))
+l1=[]
+for i in range(0,n):
+    fact=0
+    for j in range(0,n):
+        if l[i]==l[j] and i!=j:
+            fact=fact+1
+    if fact==0:
+        l1.append(l[i])
+print(l1)
+
+
+OUTPUT:
+
+5
+55 64 45 55 78
+[64, 45, 78]
+
+OUTPUT:
+
+4
+88 55 88 55
+[]
+
+
+
+
+
