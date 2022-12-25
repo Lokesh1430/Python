@@ -1,0 +1,31 @@
+def Happynumber(num):  
+    rem = sum = 0 
+    while(num > 0):
+        rem = num%10 
+        sum = sum + (rem*rem) 
+        num = num//10
+    return sum
+n=int(input())
+for i in range(n-1,0,-1):  
+    result = i   
+    while(result != 1 and result != 4):  
+        result = Happynumber(result)  
+    if(result == 1):  
+        print('Previous happy number=',i) 
+        print(" ")
+        break
+
+        
+
+OUTPUT:
+
+79
+Previous happy number= 70
+
+
+OUTPUT:
+
+17
+Previous happy number= 13
+
+
