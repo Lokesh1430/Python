@@ -1,0 +1,19 @@
+n=int(input())
+a=-1
+b=1
+sum=0
+for i in range(0,n):
+    c=a+b
+    a=b
+    b=c
+    sum=sum+c
+print('SUM=',sum)
+
+
+OUTPUT:
+
+10
+SUM= 88
+
+
+
