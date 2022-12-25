@@ -1,0 +1,19 @@
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(n-1,-1,-1):
+    print(l[i],end=' ')
+
+
+OUTPUT:
+
+5
+1 2 3 4 5
+5 4 3 2 1
+
+
+OUTPUT:
+
+5
+10 9 8 7 6
+6 7 8 9 10 
+
