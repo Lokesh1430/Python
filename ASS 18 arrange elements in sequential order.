@@ -1,0 +1,19 @@
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if l[i]>l[j]:
+            t=l[i]
+            l[i]=l[j]
+            l[j]=t
+for i in range(n):
+    print(l[i],end=' ')
+
+
+OUTPUT:
+
+5
+80 40 1 20 15
+1 15 20 40 80 
+
+
