@@ -1,0 +1,26 @@
+Write a program to reverse of the half right list.
+
+
+def reverse_half_right(lst):
+  mid = len(lst)//2
+  if n%2==0:
+      mid=mid
+  else:
+      mid=mid+1
+  lst[mid:] = reversed(lst[mid:])
+
+n=int(input()) 
+my_list = list(map(int,input().split()))
+reverse_half_right(my_list)
+print(my_list)
+
+
+OUTPUT:
+
+5
+1 2 3 4 5
+[1, 2, 3, 5, 4]
+
+
+
+
