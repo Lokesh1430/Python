@@ -1,0 +1,18 @@
+Write a program to substract one number from the the given number and converted into list.
+
+
+n=int(input())
+res=n-1
+l=[]
+s=str(res)
+for i in s:
+    l.append(int(i))
+print(l)
+
+
+
+OUTPUT:
+
+66
+[6, 5]
+
