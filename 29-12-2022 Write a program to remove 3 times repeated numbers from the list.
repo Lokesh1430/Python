@@ -1,0 +1,24 @@
+Write a program to remove 3 times repeated numbers from the list.
+
+
+n=int(input())
+l=list(map(int,input().split()))
+l1=[]
+for i in range(0,n):
+    count=0
+    for j in range(0,n):
+        if l[i]==l[j]:
+            count=count+1
+    if(count!=3):
+        l1.append(l[i])
+print(l1)
+
+
+
+OUTPUT:
+
+6
+1 2 3 1 5 1
+[2, 3, 5]
+
+
