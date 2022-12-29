@@ -1,0 +1,18 @@
+Write a program to count total even numbers from the list.
+
+
+n=int(input())
+count=0
+l=list(map(int,input().split()))
+for i in range(0,n):
+    if l[i]%2==0:
+        count=count+1
+print(count)
+
+
+OUTPUT:
+
+5
+1 5 63 5 2
+1
+
