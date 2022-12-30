@@ -1,0 +1,14 @@
+# Write a program to print 4 and 5 multiplies form the given range using list comprehensiation?
+
+n=int(input())
+l=[i for i in range(1,n+1) if i%4==0 or i%5==0]
+print(l)
+
+
+
+OUTPUT:
+
+10
+[4, 5, 8, 10]
+
+
