@@ -1,0 +1,20 @@
+n,ro=map(int,input().split())
+arr=list(map(int,input().split()))
+for i in range (ro):
+    last=arr[n-1]
+    for j in range(n-1,0,-1):
+        arr[j]=arr[j-1]
+    arr[0]=last
+for i in arr:
+    print(i,end=' ')
+    
+    
+OUTPUT:
+
+IN:  5 3
+     1 2 3 4 5
+OUT: 3 4 5 1 2
+
+
+
+
