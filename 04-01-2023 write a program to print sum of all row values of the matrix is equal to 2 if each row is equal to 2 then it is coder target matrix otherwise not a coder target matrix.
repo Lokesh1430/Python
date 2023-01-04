@@ -1,0 +1,53 @@
+#write a program to print sum of all row values of the matrix is equal to 2 if each row is equal to 2 then it is coder target matrix otherwise not a coder target matrix.
+
+
+n=int(input())
+m=[]
+c=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=float(input())
+        l.append(x)
+    m.append(l)
+for i in range(0,n):
+    sum=0
+    for j in range(0,n):
+        sum=sum+m[i][j]
+    if sum==2:
+        c=c+1
+if c==n:
+    print('Coder target matrix')
+else:
+    print('Not a coder target matrix')
+
+
+
+OUTPUT:
+
+4
+1
+2
+1
+-2
+0
+1
+2
+-1
+4
+-1
+0
+-1
+1
+0
+0
+1
+Coder target matrix
+
+
+
+
+
+
+
+
