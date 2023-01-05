@@ -1,0 +1,51 @@
+# write a program to calculate the last k maximum and minimum difference from the given list.
+
+
+n=int(input())
+m=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+k=int(input())
+for i in range(0,n):
+    for j in range(0,n):
+        if i+j==n-1:
+            m[i][j]=k
+        else:
+            m[i][j]=0
+for i in m:
+    print(i)
+
+
+
+
+
+OUTPUT:
+
+IN:
+
+3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+7
+
+OUT:
+
+[0, 0, 7]
+[0, 7, 0]
+[7, 0, 0]
+
+
+
+
+
