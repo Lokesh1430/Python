@@ -1,0 +1,23 @@
+Arrange digits in descending order in the given number.
+
+s=input()
+l=[]
+for i in s:
+    l.append(int(i))
+l.sort(reverse=True)
+res=''
+for i in l:
+    res=res+str(i)
+print(res)
+
+
+OUTPUT:
+IN:
+128473
+OUT:
+874321
+
+
+
+
+
