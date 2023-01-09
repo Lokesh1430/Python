@@ -1,0 +1,59 @@
+if __name__ == '__main__':
+    s = input()
+    alp=0
+    dig=0
+    upc=0
+    lowc=0
+    for i in s:
+       if i.isalpha():
+        alp=alp+1
+       if i.isdigit():
+        dig=dig+1
+       if i.isupper():
+        upc=upc+1
+       if i.islower():
+        lowc=lowc+1
+    if alp>0 or dig>0:
+        print('True')
+    else:
+        print('False')
+    if alp>0:
+        print('True')
+    else:
+        print('False')
+    if dig>0:
+        print('True')
+    else:
+        print('False')
+    if lowc>0:
+        print('True')
+    else: 
+        print('False')
+    if upc>0:
+        print('True')
+    else:
+        print('False') 
+        
+        
+        
+OUTPUT:
+  
+IN:
+qA2
+  
+OUT:
+True
+True
+True
+True
+True
+
+
+
+
+
+
+
+
+
+
