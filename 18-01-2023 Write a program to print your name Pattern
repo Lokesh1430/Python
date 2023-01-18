@@ -1,0 +1,34 @@
+'''Write a program to print your name like this
+IN:
+   Lokesh
+OUT:
+L
+Lo
+Lok
+Loke
+Lokes
+Lokesh
+'''
+
+
+name=input()
+for i in range(1,len(name)+1):
+    print(name[:i])
+    
+    
+OUPUT:
+
+IN:
+   Lokesh
+
+OUT:
+
+L
+Lo
+Lok
+Loke
+Lokes
+Lokesh
+
+
+
