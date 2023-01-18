@@ -1,0 +1,25 @@
+# Write a program to convert 24hrs to time zone to 12 hrs.
+
+ef convert(s):
+    h=int(s[0:2])
+    if h==0:
+        return '12'+s[2:8]+'AM'
+    elif h>=1 and h<=11:
+        return s[0:8]+'AM'
+    elif h>=13 and h<=23:
+        h=h-12
+        return str(h)+s[2:8]+'PM'
+s=input()
+print(convert(s))
+
+
+OUTPUT:
+
+IN:
+   17:07:12
+
+OUT:
+    5:07:12PM
+
+
+
