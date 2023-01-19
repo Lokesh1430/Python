@@ -1,0 +1,31 @@
+'''
+write a program to print the following freequency
+    input:
+        aditya
+        2
+    output:
+        aaddiittyyaa
+'''
+
+
+s=input()
+d=int(input())
+for i in range(0,len(s)):
+    for j in range(0,d):
+        print(s[i],end="")
+        
+        
+        
+OUTPUT:
+
+IN:
+   aditya
+   2
+   
+OUT:
+    aaddiittyyaa
+    
+    
+    
+    
+    
