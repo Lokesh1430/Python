@@ -1,0 +1,39 @@
+'''
+write a program to print the following series using with the given string
+    input:
+        aditya
+    output:
+        aditya
+        adity
+        adit
+        adi
+        ad
+        a
+'''
+
+
+
+
+name=input()
+for i in range(len(name),0,-1):
+    print(name[:i])
+    
+    
+    
+
+OUTPUT:
+
+IN:
+  aditya
+  
+OUT:
+
+aditya
+adity
+adit
+adi
+ad
+a
+
+
+
