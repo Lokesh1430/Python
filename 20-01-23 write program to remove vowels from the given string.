@@ -1,0 +1,41 @@
+'''
+write program to remove vowels from the given string.
+    for example
+    input:aditya
+    output:dty
+'''
+
+
+s=input()
+for i in range(0,len(s)):
+    if s[i]!='a' and s[i]!='i' and s[i]!='o' and s[i]!='u' and s[i]!='A' and s[i]!='I' and s[i]!='O' and s[i]!='U':
+        print(s[i],end="")
+        
+        
+OUTPUT:
+
+IN: 
+   aditya
+
+OUT:
+   dty                                                                         
+                                         
+                                
+                             
+                                        
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
