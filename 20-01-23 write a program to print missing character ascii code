@@ -1,0 +1,33 @@
+ '''
+ write a program to print missing character ascii code
+    for example
+    input:abd
+    ouput:99
+'''
+
+
+s=input()
+n=len(s)
+s=sorted(s)
+for i in range(1,n):
+    if ord(s[i])-ord(s[i-1])==1:
+        continue
+    else:
+        ch=ord(s[i])-1
+print(ch)
+
+
+OUTPUT:
+
+IN:
+   abd
+
+OUT:
+    99
+    
+    
+    
+    
+    
+    
+    
