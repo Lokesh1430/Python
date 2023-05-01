@@ -1,0 +1,46 @@
+# write a program to prepare student dictionary
+# (note:sno,sname,group,college branch,phone number)
+
+student={}
+n=int(input('Enter the number of students: '))
+for i in range(0,n):
+      l=[]
+      sno=int(input('Enter student number: '))
+      sname=input('Enter student name: ')
+      gp=input('Enter name of the group: ')
+      clgbrc=input('Enter the branch of the aditya college: ')
+      pno=int(input('Enter student phone number: '))
+      l.append(sname)
+      l.append(gp)
+      l.append(clgbrc)
+      l.append(pno)
+      student[sno]=l
+print(student)
+print('SNAME: ',student[sno][0])
+print('GROUP: ',student[sno][1])
+print('COLLEGE: ',student.get(sno)[2])
+print('PHONE NUMBER: ',student.get(sno)[3])
+
+
+OUTPUT:
+
+Enter the number of students:  2
+Enter student number:  24
+Enter student name:  Lakshman
+Enter name of the group:  Artificial Intelligence
+Enter the branch of the aditya college:  ADCKKD
+Enter student phone number:  9381167128
+Enter student number:  25
+Enter student name:  Lokesh
+Enter name of the group:  Data Science
+Enter the branch of the aditya college:  ADCELR
+Enter student phone number:  9381167127
+{24: ['Lakshman', 'Artificial Intelligence', 'ADCKKD', 9381167128], 25: ['Lokesh', 'Data Science', 'ADCELR', 9381167127]}
+SNAME:  Lokesh
+GROUP:  Data Science
+COLLEGE:  ADCELR
+PHONE NUMBER:  9381167127
+
+
+
+
