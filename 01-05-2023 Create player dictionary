@@ -1,0 +1,25 @@
+ # write a program to create player dictionary
+ # (note:read the pno and pname at the time of runtime)
+
+player={}
+n=int(input('Enter the number of players: '))
+for i in range(0,n):
+   l=[]
+   pno=int(input('Enter the player number: '))
+   pname=input('Enter the player name: ')
+   l.append(pname)
+   player[pno]=l
+print(player)
+   
+
+OUTPUT:
+
+Enter the number of players:  3
+Enter the player number:  4
+Enter the player name:  virat
+Enter the player number:  1
+Enter the player name:  kl
+Enter the player number:  6
+Enter the player name:  rahul
+{4: ['virat'], 1: ['kl'], 6: ['rahul']}
+
