@@ -1,0 +1,21 @@
+# write a program to print biggest of three numbers
+
+X=int(input('X= '))
+Y=int(input('Y= '))
+Z=int(input('Z= '))
+if X>Y and X>Z:
+    print('X is Big')
+elif Y>Z:
+    print('Y is Big')
+else:
+    print('Z is Big')
+    
+    
+OUTPUT:
+
+X=  90
+Y=  100
+Z=  193
+Z is Big
+
+
