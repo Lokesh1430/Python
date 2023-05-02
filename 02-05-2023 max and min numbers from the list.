@@ -1,0 +1,14 @@
+# write a program to print max and min numbers from the list.
+
+n=int(input())
+l=list(map(int,input().split())) 
+print("NAX=",max(l))
+print("MIN=",min(l))
+
+OUTPUT:
+
+5
+ 1 5 7 9 15
+NAX= 15
+MIN= 1
+
