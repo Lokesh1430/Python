@@ -1,0 +1,35 @@
+# Prepare student result dictionary
+
+try:
+    d={}
+    n=int(input('How Many Number Of Students We Can Enter The Results: '))
+    for i in range(0,n):
+        name,result=input('Enter The Name Space Result: ').split()
+        d[name]=result
+    for i in range(0,n):
+        name=input('Enter The Name Of The Student Pass OR Fail: ')
+        if name in d:
+            print(name,d[name],'the exam')
+        else:
+            print('No Result Found')
+except:
+    print('Invalid input')
+    
+
+OUTPUT:
+
+How Many Number Of Students We Can Enter The Results:  4
+Enter The Name Space Result:  Ramu pass
+Enter The Name Space Result:  Rani fail
+Enter The Name Space Result:  Devi pass
+Enter The Name Space Result:  Uma fail
+Enter The Name Of The Student Pass OR Fail:  Ramu
+Ramu pass the exam
+Enter The Name Of The Student Pass OR Fail:  Sita
+No Result Found
+Enter The Name Of The Student Pass OR Fail:  Devi
+Devi pass the exam
+Enter The Name Of The Student Pass OR Fail:  Uma
+Uma fail the exam
+
+
