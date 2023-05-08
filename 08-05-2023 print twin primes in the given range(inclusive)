@@ -1,0 +1,29 @@
+# Write a program to print twin primes in the given range(inclusive)
+
+
+import math
+n = 2000001
+siv = [1]*n
+siv[0] = 0
+siv[1] = 0
+a = int(math.sqrt(n))
+for i in range(2, a+1):
+    if siv[i] == 1:
+        for j in range(i*i, n, i):
+            siv[j] = 0
+start, end = map(int, input().split())
+for i in range(start, end+1):
+    if siv[i] == 1 and siv[i+2] == 1:
+        print(i, i+2)
+        
+        
+INPUT:
+5 19
+ 
+OUTPUT:
+5 7
+11 13
+17 19
+
+
+
