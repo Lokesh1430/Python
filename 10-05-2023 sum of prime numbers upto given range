@@ -1,0 +1,27 @@
+# write a program to print sum of prime numbers upto given range
+
+import math
+n=100000
+siv=[1]*(n+1)
+siv[0]=0
+siv[1]=0
+m=int(math.sqrt(n))
+for i in range(2,m+1):
+    if siv[i]==1:
+        for j in range(i*i,n,i):
+            siv[j]=0
+pf=[0]*(n+1)
+l=[]
+for i in range(1,n+1):
+    pf[i] = pf[i - 1] + i if siv[i] == 1 else pf[i - 1]
+l,r=map(int,input().split())
+print(pf[r]-pf[l-1])
+
+INPUT:
+2 11
+
+OUTPUT:
+28
+
+
+
