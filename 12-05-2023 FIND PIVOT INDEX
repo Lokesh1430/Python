@@ -1,0 +1,24 @@
+# https://leetcode.com/problems/find-pivot-index/description/
+
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
+        n=len(nums)
+        rsum=sum(nums)
+        lsum=0
+        for i in range(0,n):
+            rsum-=nums[i]
+            if lsum==rsum:
+                return i
+            lsum+=nums[i]
+        return -1
+            
+            
+Input: nums = [1,7,3,6,5,6]
+Output: 3
+
+            
+            
+            
+            
+            
+            
