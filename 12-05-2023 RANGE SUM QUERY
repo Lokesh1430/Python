@@ -1,0 +1,23 @@
+# https://leetcode.com/problems/range-sum-query-immutable/description/
+
+class NumArray:
+
+    def __init__(self, nums: List[int]):
+        n=len(nums)
+        self.ps=[0]*(n+1)
+        self.ps[0]=nums[0]
+        for i in range(1,n):
+            self.ps[i]=self.ps[i-1]+nums[i]
+        
+
+    def sumRange(self, left: int, right: int) -> int:
+        return self.ps[right]-self.ps[left-1]
+
+        
+Input
+["NumArray", "sumRange", "sumRange", "sumRange"]
+[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
+Output
+[null, 1, -1, -3]
+        
+
