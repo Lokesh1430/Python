@@ -1,0 +1,29 @@
+# https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        ct=0
+        ps=0
+        d={0:1}
+        for i in nums:
+            ps+=i
+            if ps-k in d:
+                ct+=d[ps-k]
+            if ps not in d:
+                d[ps]=1
+            else:
+                d[ps]+=1
+        return ct
+        
+        
+Input: nums = [1,1,1], k = 2
+Output: 2
+
+Input: nums = [1,2,3], k = 3
+Output: 2
+        
+        
+      
+      
+      
+      
