@@ -1,0 +1,27 @@
+# https://leetcode.com/problems/subarray-product-less-than-k/description/
+
+class Solution:
+    def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
+        ct=0
+        p=1
+        j=0
+        for i in range(len(nums)):
+            p*=nums[i]
+            while j<=i and p>=k:
+                p//=nums[j]
+                j+=1
+            ct+=i-j+1
+        return 
+        
+        
+
+
+Input: nums = [10,5,2,6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are:
+[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
+
+
+
+
