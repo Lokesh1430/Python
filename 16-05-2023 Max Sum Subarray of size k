@@ -1,0 +1,43 @@
+# https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+
+#User function Template for python3
+class Solution:
+    def maximumSumSubarray (self,K,Arr,N):
+        # code here
+        msum=sum(Arr[0:K])
+        csum=msum
+        for i in range(K,N):
+            csum+=Arr[i]-Arr[i-K]
+            msum=max(msum,csum)
+        return msum
+        
+#{ 
+ # Driver Code Starts
+#Initial Template for Python 3
+if __name__ == '__main__': 
+    t = int (input ())
+    for _ in range (t):
+        
+        N,K = input().split()
+        N = int(N)
+        K = int(K)
+        Arr = list( map(int,input().strip().split(" ")))
+
+        ob = Solution()
+        print(ob.maximumSumSubarray(K,Arr,N))
+# } Driver Code Ends
+
+
+
+Input:
+N = 4, K = 2
+Arr = [100, 200, 300, 400]
+Output:
+700
+Explanation:
+Arr3  + Arr4 =700,
+which is maximum.
+
+
+
+
