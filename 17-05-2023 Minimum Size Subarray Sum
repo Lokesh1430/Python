@@ -1,0 +1,32 @@
+# https://leetcode.com/problems/minimum-size-subarray-sum/description/
+
+class Solution:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        st=0
+        ed=0
+        csum=0
+        mlen=float('inf')
+        n=len(nums)
+        while ed<n:
+            csum+=nums[ed]
+            ed+=1
+            while st<ed and csum>=target:
+                csum-=nums[st]
+                st+=1
+                mlen=min(mlen,ed-st+1)
+        if mlen==float('inf'):
+            return 0
+        else:
+            return mlen
+            
+            
+            
+Input: target = 7, nums = [2,3,1,2,4,3]
+Output: 2
+Explanation: The subarray [4,3] has the minimal length under the problem constraint.            
+            
+            
+            
+            
+            
+            
