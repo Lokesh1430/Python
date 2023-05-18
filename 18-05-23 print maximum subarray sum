@@ -1,0 +1,22 @@
+# write a program to print maximum subarray sum
+
+
+nums=list(map(int,input().split()))
+maxsub=nums[0]
+n=len(nums)
+csum=0
+for i in range (n):
+    csum+=nums[i]
+    if csum>maxsub:
+        maxsub=csum
+    if csum<0:
+        csum=0
+print(maxsub)
+
+
+INPUT:
+-2 1 -3 4 -1 2 1 -5 4
+
+OUTPUT:
+6
+
