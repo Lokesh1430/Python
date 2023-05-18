@@ -1,0 +1,27 @@
+# write a program to print factorial of the given number without using looping statements
+
+def factn(n):
+    if n==0:
+        return 1
+    else:
+        return n*factn(n-1)
+n=int(input())
+print(factn(n))
+
+
+
+INPUT:
+8
+
+OUTPUT:
+40320
+
+INPUT:
+5
+
+OUTPUT:
+120
+
+
+
+
