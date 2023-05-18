@@ -1,0 +1,24 @@
+# https://leetcode.com/problems/power-of-three/description/
+
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
+        if n==1:
+            return True
+        elif n%3>=1:
+            return False
+        else:
+            return n>1 and self.isPowerOfThree(n//3)
+
+
+
+Input: n = 27
+Output: true
+Explanation: 27 = 33
+
+
+Input: n = 0
+Output: false
+Explanation: There is no x where 3x = 0.
+
+
+
