@@ -1,0 +1,23 @@
+# https://leetcode.com/problems/reverse-bits/description/
+
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        rs=0
+        for i in range(31):
+            if (n&1)==1:
+                rs+=1
+            n=n>>1
+            rs=rs<<1
+        return rs+(n&1)
+        
+        
+        
+Input: n = 00000010100101000001111010011100
+Output:    964176192 (00111001011110000010100101000000)
+Explanation: The input binary string 00000010100101000001111010011100 represents the unsigned integer 43261596, 
+             so return 964176192 which its binary representation is 00111001011110000010100101000000.        
+        
+        
+        
+        
+        
