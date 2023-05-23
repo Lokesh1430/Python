@@ -1,0 +1,46 @@
+# https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1
+
+#User function Template for python3
+
+from itertools import permutations
+class Solution:
+    def find_permutation(self, S):
+        # Code here
+        p=permutations(S)
+        m=[]
+        l=["".join(list(i)) for i in p]
+        for i in l:
+            if i not in m:
+                m.append(i)
+        return sorted(m)
+        
+
+
+
+#{ 
+ # Driver Code Starts
+#Initial Template for Python 3
+
+
+if __name__ == '__main__':
+	t=int(input())
+	for i in range(t):
+		S=input()
+		ob = Solution()
+		ans = ob.find_permutation(S)
+		for i in ans:
+			print(i,end=" ")
+		print()
+# } Driver Code Ends
+
+
+
+Input: ABC
+Output:
+ABC ACB BAC BCA CAB CBA
+Explanation:
+Given string ABC has permutations in 6 
+forms as ABC, ACB, BAC, BCA, CAB and CBA .
+
+
+
