@@ -1,0 +1,27 @@
+#https://www.hackerearth.com/problem/golf/pikachu-and-combinations/
+
+def countcb(X):
+    if X==0:
+        return 1
+    elif X<0:
+        return 0
+    else:
+        return countcb(X-2)+countcb(X-3)+countcb(X-5)
+X=int(input())
+print(countcb(X))
+
+
+
+Sample Input
+8
+
+Sample Output
+6
+
+
+Explanation
+Output: 6, because the valid combinations are:
+3+5, 5+3, 2+2+2+2, 2+3+3, 3+2+3, and 3+3+2
+
+
+
