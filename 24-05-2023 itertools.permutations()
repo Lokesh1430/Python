@@ -1,0 +1,33 @@
+# https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import permutations
+s,n=input().split()
+p=permutations(s,int(n))
+p=sorted(list(p))
+l=["".join(list(i)) for i in p]
+for i in l:
+    print(i)
+
+
+
+Sample Input
+HACK 2
+
+Sample Output
+AC
+AH
+AK
+CA
+CH
+CK
+HA
+HC
+HK
+KA
+KC
+KH
+
+
+
+
