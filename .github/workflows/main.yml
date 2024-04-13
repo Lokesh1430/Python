@@ -12,4 +12,4 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:       
-          CREDLY_USER: <https://www.credly.com/users/pilla-lokesh/badges>
+          CREDLY_USER: <pemtajo/badge-readme@main>
